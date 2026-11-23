@@ -7,8 +7,8 @@
 #SBATCH --error=logs/%x-%j.err
 #SBATCH --job-name=feather_down
 #SBATCH --mail-type=END
-#SBATCH --mail-user=slance@ucsb.edu
-#SBATCH --chdir=/home/geomorph/california_rivers/naip/scripts/processing
+#SBATCH --mail-user=yeke@ucsb.edu
+#SBATCH --chdir=/home/geomorph/yeke/california_rivers/naip/scripts/processing
 #SBATCH --gres=gpu:1
 
 export OMP_NUM_THREADS=8
